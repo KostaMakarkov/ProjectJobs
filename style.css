@@ -1,0 +1,146 @@
+
+.divStyle{
+    border: 2px solid #cae5ff;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+
+}
+.divStyle:hover{
+    background-color: #dfefff85;
+}
+.titleStyle{
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    width: 55%;
+}
+
+.locationStyle{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 11%;
+}
+
+.createdStyle{
+    display: inline-block;
+    text-align: right;
+    margin: auto;
+    width: 33%;
+}
+.moreStyle{
+    margin: 5px;
+    display: block;
+    text-align: center;
+    color: cadetblue;
+    cursor: pointer;
+}
+.additionalStyle{
+    display: none;
+}
+#filterSection{
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+    padding: 10px;
+    background-color: #cae5ff9c;
+    border: 2px solid #cae5ff;
+    border-radius: 15px;
+}
+#inputExpertise, #inputCountry{
+    width: 33%;
+    margin-right: 15px;
+    height: 35px;
+    border: 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+label{
+    margin-left: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#fullTimeCheck{
+    width: 15px;
+    height: 15px;
+
+}
+#filterJobs{
+    margin-left: 30px;
+    width: 90px;
+    height: 35px;
+    border: 2px solid #cae5ff9c;
+    background-color: cadetblue;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-family: serif;
+    font-size: 20px;
+}
+
+#filterJobs:hover{
+    background-color: rgb(100, 210, 237);
+}
+
+#navigationBar{
+    background-color: #dfefff;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.dropdown-item:hover{
+    background-color:  #dfefff;
+}
+
+.form-inline-my-2-my-lg-0{
+    width: 295px;
+}
+
+@media (max-width:1000px){
+    ul.navbar-nav.mr-auto li.nav-item.active{
+        display: inline;
+    }
+    #inputExpertise{
+        width: 45%;
+        margin-left: 20px;
+    }
+    #inputCountry{
+        width: 45%; 
+    }
+    #filterSection label{
+        margin-left: 115px;
+    }
+    #filterJobs{
+        width: 95px;
+        height: 40px;
+        margin-left: 175px;
+        margin-top: 15px;
+    }
+    }
+    
+
+
+@media(max-width:800px){
+#inputExpertise, #inputCountry{
+    display: block;
+    width: 97%;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+#allJobs div h5, #allJobs div h4{
+    display: block;
+    width: 97%;
+    text-align: center;
+}
+#allJobs div span{
+    display: none;
+}
+#filterSection label{
+margin-left: 35%;
+
+}
+
+}
+
+
