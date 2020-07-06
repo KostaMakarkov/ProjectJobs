@@ -1,9 +1,17 @@
 
+body{
+    background-image: url(./high-tech.jpeg);
+    background-size: contain;
+    font-family: sans-serif;
+}
+
+
 .divStyle{
     border: 2px solid #cae5ff;
     border-radius: 15px;
     padding: 5px;
     margin: 10px 0px 10px 0px;
+
 
 }
 .divStyle:hover{
@@ -21,6 +29,7 @@
     text-align: center;
     margin: auto;
     width: 11%;
+    font-weight: 600;
 }
 
 .createdStyle{
@@ -28,6 +37,7 @@
     text-align: right;
     margin: auto;
     width: 33%;
+    font-weight: 600;
 }
 .moreStyle{
     margin: 5px;
@@ -35,6 +45,11 @@
     text-align: center;
     color: cadetblue;
     cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+.moreStyle:hover{
+    color: #02a7b3;
 }
 .additionalStyle{
     display: none;
@@ -84,9 +99,14 @@ label{
 }
 
 #navigationBar{
-    background-color: #dfefff;
+    background-color: #b8cfe8;
     border-radius: 15px;
     margin-top: 15px;
+}
+#navigationBar img{
+    width: 71px;
+    border-radius: 55%;
+    margin-right: 7px;
 }
 
 .dropdown-item:hover{
@@ -95,6 +115,20 @@ label{
 
 .form-inline-my-2-my-lg-0{
     width: 295px;
+}
+ul.navbar-nav.mr-auto{
+    text-align: center;
+    margin: auto;
+}
+ul.navbar-nav.mr-auto a.nav-link{
+    cursor: pointer;
+    font-weight: 600;
+}
+ul.navbar-nav.mr-auto a.nav-link:hover{
+    color: #cae5ff;
+}
+input.form-control.mr-sm-2{
+    width: 77%;
 }
 
 @media (max-width:1000px){
