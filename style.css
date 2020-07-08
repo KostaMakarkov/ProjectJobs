@@ -1,7 +1,7 @@
 
 body{
     background-image: url(https://img.pngio.com/hd-images-for-website-background-best-background-images-hd-background-designs-for-websites-png-600_600.png);
-    background-size: contain;
+    background-size: contain ;
     font-family: sans-serif;
 }
 
@@ -99,7 +99,7 @@ label{
 }
 
 #navigationBar{
-    background-color: #b8cfe8;
+    background-color: #cae5ff9c;
     border-radius: 15px;
     margin-top: 15px;
 }
