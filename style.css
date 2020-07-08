@@ -148,8 +148,9 @@ input.form-control.mr-sm-2{
     #filterJobs{
         width: 95px;
         height: 40px;
-        margin-left: 175px;
+        margin: auto;
         margin-top: 15px;
+        display: block;
     }
     }
     
